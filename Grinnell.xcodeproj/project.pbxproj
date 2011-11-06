@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E14D66B7146679A100CF4EEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14D66B6146679A100CF4EEB /* UIKit.framework */; };
+		E14D66B9146679A100CF4EEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14D66B8146679A100CF4EEB /* Foundation.framework */; };
+		E14D66BB146679A100CF4EEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14D66BA146679A100CF4EEB /* CoreGraphics.framework */; };
+		E14D66BD146679A100CF4EEB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14D66BC146679A100CF4EEB /* CoreData.framework */; };
+		E14D66C3146679A100CF4EEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E14D66C1146679A100CF4EEB /* InfoPlist.strings */; };
+		E14D66C6146679A100CF4EEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D66C5146679A100CF4EEB /* main.m */; };
+		E14D66C9146679A100CF4EEB /* GrinnellAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D66C8146679A100CF4EEB /* GrinnellAppDelegate.m */; };
+		E14D66CC146679A200CF4EEB /* Grinnell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E14D66CA146679A200CF4EEB /* Grinnell.xcdatamodeld */; };
+		E14D66CF146679A200CF4EEB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14D66CD146679A200CF4EEB /* MainWindow.xib */; };
+		E14D66D2146679A200CF4EEB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D66D1146679A200CF4EEB /* RootViewController.m */; };
+		E14D66D5146679A200CF4EEB /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14D66D3146679A200CF4EEB /* RootViewController.xib */; };
+		E14D66DC146679A200CF4EEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14D66B6146679A100CF4EEB /* UIKit.framework */; };
+		E14D66DD146679A200CF4EEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14D66B8146679A100CF4EEB /* Foundation.framework */; };
+		E14D66DE146679A200CF4EEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14D66BA146679A100CF4EEB /* CoreGraphics.framework */; };
+		E14D66DF146679A200CF4EEB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14D66BC146679A100CF4EEB /* CoreData.framework */; };
+		E14D66E7146679A300CF4EEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E14D66E5146679A300CF4EEB /* InfoPlist.strings */; };
+		E14D66EA146679A300CF4EEB /* GrinnellTests.h in Resources */ = {isa = PBXBuildFile; fileRef = E14D66E9146679A300CF4EEB /* GrinnellTests.h */; };
+		E14D66EC146679A300CF4EEB /* GrinnellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D66EB146679A300CF4EEB /* GrinnellTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E14D66E0146679A200CF4EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E14D66A9146679A000CF4EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E14D66B1146679A000CF4EEB;
+			remoteInfo = Grinnell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E14D66B2146679A100CF4EEB /* Grinnell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grinnell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14D66B6146679A100CF4EEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E14D66B8146679A100CF4EEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E14D66BA146679A100CF4EEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E14D66BC146679A100CF4EEB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E14D66C0146679A100CF4EEB /* Grinnell-Info.plist */ = {isa = PBXFileReference; path = "Grinnell-Info.plist"; sourceTree = "<group>"; };
+		E14D66C2146679A100CF4EEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E14D66C4146679A100CF4EEB /* Grinnell-Prefix.pch */ = {isa = PBXFileReference; path = "Grinnell-Prefix.pch"; sourceTree = "<group>"; };
+		E14D66C5146679A100CF4EEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E14D66C7146679A100CF4EEB /* GrinnellAppDelegate.h */ = {isa = PBXFileReference; path = GrinnellAppDelegate.h; sourceTree = "<group>"; };
+		E14D66C8146679A100CF4EEB /* GrinnellAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrinnellAppDelegate.m; sourceTree = "<group>"; };
+		E14D66CB146679A200CF4EEB /* Grinnell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grinnell.xcdatamodel; sourceTree = "<group>"; };
+		E14D66CE146679A200CF4EEB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E14D66D0146679A200CF4EEB /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		E14D66D1146679A200CF4EEB /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E14D66D4146679A200CF4EEB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		E14D66DB146679A200CF4EEB /* GrinnellTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrinnellTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14D66E4146679A300CF4EEB /* GrinnellTests-Info.plist */ = {isa = PBXFileReference; path = "GrinnellTests-Info.plist"; sourceTree = "<group>"; };
+		E14D66E6146679A300CF4EEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E14D66E8146679A300CF4EEB /* GrinnellTests-Prefix.pch */ = {isa = PBXFileReference; path = "GrinnellTests-Prefix.pch"; sourceTree = "<group>"; };
+		E14D66E9146679A300CF4EEB /* GrinnellTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrinnellTests.h; sourceTree = "<group>"; };
+		E14D66EB146679A300CF4EEB /* GrinnellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrinnellTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E14D66AF146679A000CF4EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14D66B7146679A100CF4EEB /* UIKit.framework in Frameworks */,
+				E14D66B9146679A100CF4EEB /* Foundation.framework in Frameworks */,
+				E14D66BB146679A100CF4EEB /* CoreGraphics.framework in Frameworks */,
+				E14D66BD146679A100CF4EEB /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14D66D7146679A200CF4EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14D66DC146679A200CF4EEB /* UIKit.framework in Frameworks */,
+				E14D66DD146679A200CF4EEB /* Foundation.framework in Frameworks */,
+				E14D66DE146679A200CF4EEB /* CoreGraphics.framework in Frameworks */,
+				E14D66DF146679A200CF4EEB /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E14D66A7146679A000CF4EEB = {
+			isa = PBXGroup;
+			children = (
+				E14D66BE146679A100CF4EEB /* Grinnell */,
+				E14D66E2146679A200CF4EEB /* GrinnellTests */,
+				E14D66B5146679A100CF4EEB /* Frameworks */,
+				E14D66B3146679A100CF4EEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E14D66B3146679A100CF4EEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E14D66B2146679A100CF4EEB /* Grinnell.app */,
+				E14D66DB146679A200CF4EEB /* GrinnellTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E14D66B5146679A100CF4EEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E14D66B6146679A100CF4EEB /* UIKit.framework */,
+				E14D66B8146679A100CF4EEB /* Foundation.framework */,
+				E14D66BA146679A100CF4EEB /* CoreGraphics.framework */,
+				E14D66BC146679A100CF4EEB /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E14D66BE146679A100CF4EEB /* Grinnell */ = {
+			isa = PBXGroup;
+			children = (
+				E14D66C7146679A100CF4EEB /* GrinnellAppDelegate.h */,
+				E14D66C8146679A100CF4EEB /* GrinnellAppDelegate.m */,
+				E14D66CD146679A200CF4EEB /* MainWindow.xib */,
+				E14D66D0146679A200CF4EEB /* RootViewController.h */,
+				E14D66D1146679A200CF4EEB /* RootViewController.m */,
+				E14D66D3146679A200CF4EEB /* RootViewController.xib */,
+				E14D66CA146679A200CF4EEB /* Grinnell.xcdatamodeld */,
+				E14D66BF146679A100CF4EEB /* Supporting Files */,
+			);
+			path = Grinnell;
+			sourceTree = "<group>";
+		};
+		E14D66BF146679A100CF4EEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E14D66C0146679A100CF4EEB /* Grinnell-Info.plist */,
+				E14D66C1146679A100CF4EEB /* InfoPlist.strings */,
+				E14D66C4146679A100CF4EEB /* Grinnell-Prefix.pch */,
+				E14D66C5146679A100CF4EEB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E14D66E2146679A200CF4EEB /* GrinnellTests */ = {
+			isa = PBXGroup;
+			children = (
+				E14D66E9146679A300CF4EEB /* GrinnellTests.h */,
+				E14D66EB146679A300CF4EEB /* GrinnellTests.m */,
+				E14D66E3146679A300CF4EEB /* Supporting Files */,
+			);
+			path = GrinnellTests;
+			sourceTree = "<group>";
+		};
+		E14D66E3146679A300CF4EEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E14D66E4146679A300CF4EEB /* GrinnellTests-Info.plist */,
+				E14D66E5146679A300CF4EEB /* InfoPlist.strings */,
+				E14D66E8146679A300CF4EEB /* GrinnellTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E14D66B1146679A000CF4EEB /* Grinnell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14D66EF146679A300CF4EEB /* Build configuration list for PBXNativeTarget "Grinnell" */;
+			buildPhases = (
+				E14D66AE146679A000CF4EEB /* Sources */,
+				E14D66AF146679A000CF4EEB /* Frameworks */,
+				E14D66B0146679A000CF4EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grinnell;
+			productName = Grinnell;
+			productReference = E14D66B2146679A100CF4EEB /* Grinnell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E14D66DA146679A200CF4EEB /* GrinnellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14D66F2146679A300CF4EEB /* Build configuration list for PBXNativeTarget "GrinnellTests" */;
+			buildPhases = (
+				E14D66D6146679A200CF4EEB /* Sources */,
+				E14D66D7146679A200CF4EEB /* Frameworks */,
+				E14D66D8146679A200CF4EEB /* Resources */,
+				E14D66D9146679A200CF4EEB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E14D66E1146679A200CF4EEB /* PBXTargetDependency */,
+			);
+			name = GrinnellTests;
+			productName = GrinnellTests;
+			productReference = E14D66DB146679A200CF4EEB /* GrinnellTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E14D66A9146679A000CF4EEB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E14D66AC146679A000CF4EEB /* Build configuration list for PBXProject "Grinnell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E14D66A7146679A000CF4EEB;
+			productRefGroup = E14D66B3146679A100CF4EEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E14D66B1146679A000CF4EEB /* Grinnell */,
+				E14D66DA146679A200CF4EEB /* GrinnellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E14D66B0146679A000CF4EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14D66C3146679A100CF4EEB /* InfoPlist.strings in Resources */,
+				E14D66CF146679A200CF4EEB /* MainWindow.xib in Resources */,
+				E14D66D5146679A200CF4EEB /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14D66D8146679A200CF4EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14D66E7146679A300CF4EEB /* InfoPlist.strings in Resources */,
+				E14D66EA146679A300CF4EEB /* GrinnellTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E14D66D9146679A200CF4EEB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E14D66AE146679A000CF4EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14D66C6146679A100CF4EEB /* main.m in Sources */,
+				E14D66C9146679A100CF4EEB /* GrinnellAppDelegate.m in Sources */,
+				E14D66CC146679A200CF4EEB /* Grinnell.xcdatamodeld in Sources */,
+				E14D66D2146679A200CF4EEB /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14D66D6146679A200CF4EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14D66EC146679A300CF4EEB /* GrinnellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E14D66E1146679A200CF4EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E14D66B1146679A000CF4EEB /* Grinnell */;
+			targetProxy = E14D66E0146679A200CF4EEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E14D66C1146679A100CF4EEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E14D66C2146679A100CF4EEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E14D66CD146679A200CF4EEB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E14D66CE146679A200CF4EEB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E14D66D3146679A200CF4EEB /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E14D66D4146679A200CF4EEB /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		E14D66E5146679A300CF4EEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E14D66E6146679A300CF4EEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E14D66ED146679A300CF4EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E14D66EE146679A300CF4EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E14D66F0146679A300CF4EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grinnell/Grinnell-Prefix.pch";
+				INFOPLIST_FILE = "Grinnell/Grinnell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E14D66F1146679A300CF4EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grinnell/Grinnell-Prefix.pch";
+				INFOPLIST_FILE = "Grinnell/Grinnell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E14D66F3146679A300CF4EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Grinnell.app/Grinnell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrinnellTests/GrinnellTests-Prefix.pch";
+				INFOPLIST_FILE = "GrinnellTests/GrinnellTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E14D66F4146679A300CF4EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Grinnell.app/Grinnell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrinnellTests/GrinnellTests-Prefix.pch";
+				INFOPLIST_FILE = "GrinnellTests/GrinnellTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E14D66AC146679A000CF4EEB /* Build configuration list for PBXProject "Grinnell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14D66ED146679A300CF4EEB /* Debug */,
+				E14D66EE146679A300CF4EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14D66EF146679A300CF4EEB /* Build configuration list for PBXNativeTarget "Grinnell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14D66F0146679A300CF4EEB /* Debug */,
+				E14D66F1146679A300CF4EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E14D66F2146679A300CF4EEB /* Build configuration list for PBXNativeTarget "GrinnellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14D66F3146679A300CF4EEB /* Debug */,
+				E14D66F4146679A300CF4EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E14D66CA146679A200CF4EEB /* Grinnell.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E14D66CB146679A200CF4EEB /* Grinnell.xcdatamodel */,
+			);
+			currentVersion = E14D66CB146679A200CF4EEB /* Grinnell.xcdatamodel */;
+			path = Grinnell.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E14D66A9146679A000CF4EEB /* Project object */;
+}

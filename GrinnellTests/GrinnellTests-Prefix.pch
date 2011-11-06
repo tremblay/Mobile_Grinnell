@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'GrinnellTests' target in the 'GrinnellTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
