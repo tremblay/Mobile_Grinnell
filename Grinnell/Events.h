@@ -10,7 +10,7 @@
 
 
 @interface Events : UIViewController {
-    
+    UIWebView *webView;
 }
-
+@property (nonatomic, retain) IBOutlet UIWebView *webView;
 @end

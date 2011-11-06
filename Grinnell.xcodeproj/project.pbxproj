@@ -39,6 +39,8 @@
 		E14D67671466AAA000CF4EEB /* Hours.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14D67651466AA9F00CF4EEB /* Hours.xib */; };
 		E14D676B1466AABD00CF4EEB /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D67691466AABA00CF4EEB /* Video.m */; };
 		E14D676C1466AABD00CF4EEB /* Video.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14D676A1466AABB00CF4EEB /* Video.xib */; };
+		E1A7D3DA146751B900AD9391 /* DHall.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A7D3D8146751B600AD9391 /* DHall.m */; };
+		E1A7D3DB146751B900AD9391 /* DHall.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A7D3D9146751B800AD9391 /* DHall.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,9 @@
 		E14D67681466AAB800CF4EEB /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
 		E14D67691466AABA00CF4EEB /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
 		E14D676A1466AABB00CF4EEB /* Video.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Video.xib; sourceTree = "<group>"; };
+		E1A7D3D7146751B500AD9391 /* DHall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHall.h; sourceTree = "<group>"; };
+		E1A7D3D8146751B600AD9391 /* DHall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHall.m; sourceTree = "<group>"; };
+		E1A7D3D9146751B800AD9391 /* DHall.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DHall.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +181,9 @@
 				E14D67681466AAB800CF4EEB /* Video.h */,
 				E14D67691466AABA00CF4EEB /* Video.m */,
 				E14D676A1466AABB00CF4EEB /* Video.xib */,
+				E1A7D3D7146751B500AD9391 /* DHall.h */,
+				E1A7D3D8146751B600AD9391 /* DHall.m */,
+				E1A7D3D9146751B800AD9391 /* DHall.xib */,
 				E14D674D1466882D00CF4EEB /* Campus_Map.h */,
 				E14D674E1466882D00CF4EEB /* Campus_Map.m */,
 				E14D674F1466882D00CF4EEB /* Campus_Map.xib */,
@@ -296,6 +304,7 @@
 				E14D67621466AA8600CF4EEB /* Events.xib in Resources */,
 				E14D67671466AAA000CF4EEB /* Hours.xib in Resources */,
 				E14D676C1466AABD00CF4EEB /* Video.xib in Resources */,
+				E1A7D3DB146751B900AD9391 /* DHall.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +350,7 @@
 				E14D67611466AA8600CF4EEB /* Events.m in Sources */,
 				E14D67661466AAA000CF4EEB /* Hours.m in Sources */,
 				E14D676B1466AABD00CF4EEB /* Video.m in Sources */,
+				E1A7D3DA146751B900AD9391 /* DHall.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +531,7 @@
 				E14D66F1146679A300CF4EEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E14D66F2146679A300CF4EEB /* Build configuration list for PBXNativeTarget "GrinnellTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +540,7 @@
 				E14D66F4146679A300CF4EEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

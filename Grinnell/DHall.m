@@ -1,15 +1,15 @@
 //
-//  Video.m
+//  DHall.m
 //  Grinnell
 //
 //  Created by Colin Tremblay on 11/6/11.
-//  Copyright 2011 __Grinnell_AppDev__. All rights reserved.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "Video.h"
+#import "DHall.h"
 
 
-@implementation Video
+@implementation DHall
 @synthesize webView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -39,9 +39,7 @@
 
 - (void)viewDidLoad
 {
-    NSURL *urlString = [[NSURL alloc] initWithString:@"http://www.grinnell.edu/includes/n/coolvidoid.php"];
-    //http://www.grinnell.edu/files/video/coolvideo.mp4
-    
+    NSURL *urlString = [[NSURL alloc] initWithString:@"http://www.grinnell.edu/includes/n/diningoid.php"];
     NSURLRequest *urlRequest = [[NSURLRequest alloc] initWithURL:urlString];
     NSData *returnData = [NSURLConnection sendSynchronousRequest:urlRequest returningResponse:nil error:nil];
     NSString *HTMLData = [[NSString alloc] initWithData:returnData encoding:NSUTF8StringEncoding];
@@ -51,7 +49,7 @@
     resourcePath = [resourcePath stringByReplacingOccurrencesOfString:@" " withString:@"%20"];
     [webView loadHTMLString:HTMLData baseURL:[NSURL URLWithString:[NSString stringWithFormat:@"file:/%@//",resourcePath]]];
     [super viewDidLoad];
-    self.title = @"Video";
+    self.title = @"Menu";
     // Do any additional setup after loading the view from its nib.
 }
 

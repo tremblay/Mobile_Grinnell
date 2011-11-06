@@ -10,7 +10,7 @@
 
 
 @interface Campus_Memo : UIViewController {
-    
+    UIWebView *webView;
 }
-
+@property (nonatomic, retain) IBOutlet UIWebView *webView;
 @end

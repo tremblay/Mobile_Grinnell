@@ -10,6 +10,7 @@
 
 
 @implementation Hours
+@synthesize webView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -22,6 +23,7 @@
 
 - (void)dealloc
 {
+    [webView release];
     [super dealloc];
 }
 
@@ -37,7 +39,21 @@
 
 - (void)viewDidLoad
 {
+    NSURL *urlString = [[NSURL alloc] initWithString:@"http://www.grinnell.edu/includes/n/houroid.php"];
+    NSURLRequest *urlRequest = [[NSURLRequest alloc] initWithURL:urlString];
+    NSData *returnData = [NSURLConnection
+                          sendSynchronousRequest:urlRequest
+                          returningResponse:nil 
+                          error:nil];
+    NSString *HTMLData = [[NSString alloc] initWithData:returnData 
+                                               encoding:NSUTF8StringEncoding];
+    
+    NSString *resourcePath = [[NSBundle mainBundle] resourcePath];
+    resourcePath = [resourcePath stringByReplacingOccurrencesOfString:@"/" withString:@"//"];
+    resourcePath = [resourcePath stringByReplacingOccurrencesOfString:@" " withString:@"%20"];
+    [webView loadHTMLString:HTMLData baseURL:[NSURL URLWithString:[NSString stringWithFormat:@"file:/%@//",resourcePath]]];
     [super viewDidLoad];
+    self.title = @"Hours";
     // Do any additional setup after loading the view from its nib.
 }
 

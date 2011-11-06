@@ -13,6 +13,7 @@
 #import "Events.h"
 #import "Hours.h"
 #import "Video.h"
+#import "DHall.h"
 
 @interface RootViewController ()
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
@@ -141,7 +142,9 @@
         [map release];
     }
     else if (indexPath.row == 7){
-        //TO DHall APP
+        DHall *dhall = [[DHall alloc] initWithNibName:@"DHall" bundle:nil];
+        [self.navigationController pushViewController:dhall animated:YES];
+        [dhall release];
     }
 }
 
