@@ -25,6 +25,20 @@
 		E14D66E7146679A300CF4EEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E14D66E5146679A300CF4EEB /* InfoPlist.strings */; };
 		E14D66EA146679A300CF4EEB /* GrinnellTests.h in Resources */ = {isa = PBXBuildFile; fileRef = E14D66E9146679A300CF4EEB /* GrinnellTests.h */; };
 		E14D66EC146679A300CF4EEB /* GrinnellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D66EB146679A300CF4EEB /* GrinnellTests.m */; };
+		E14D66F6146679E700CF4EEB /* grinnellbg.png in Resources */ = {isa = PBXBuildFile; fileRef = E14D66F5146679E700CF4EEB /* grinnellbg.png */; };
+		E14D67501466882E00CF4EEB /* Campus_Map.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D674E1466882D00CF4EEB /* Campus_Map.m */; };
+		E14D67511466882E00CF4EEB /* Campus_Map.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14D674F1466882D00CF4EEB /* Campus_Map.xib */; };
+		E14D67531466885A00CF4EEB /* campusmap.png in Resources */ = {isa = PBXBuildFile; fileRef = E14D67521466885A00CF4EEB /* campusmap.png */; };
+		E14D67571466A98800CF4EEB /* Campus_Memo.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D67551466A98700CF4EEB /* Campus_Memo.m */; };
+		E14D67581466A98800CF4EEB /* Campus_Memo.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14D67561466A98800CF4EEB /* Campus_Memo.xib */; };
+		E14D675C1466AA6400CF4EEB /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D675A1466AA6200CF4EEB /* News.m */; };
+		E14D675D1466AA6400CF4EEB /* News.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14D675B1466AA6300CF4EEB /* News.xib */; };
+		E14D67611466AA8600CF4EEB /* Events.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D675F1466AA8500CF4EEB /* Events.m */; };
+		E14D67621466AA8600CF4EEB /* Events.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14D67601466AA8500CF4EEB /* Events.xib */; };
+		E14D67661466AAA000CF4EEB /* Hours.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D67641466AA9E00CF4EEB /* Hours.m */; };
+		E14D67671466AAA000CF4EEB /* Hours.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14D67651466AA9F00CF4EEB /* Hours.xib */; };
+		E14D676B1466AABD00CF4EEB /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D67691466AABA00CF4EEB /* Video.m */; };
+		E14D676C1466AABD00CF4EEB /* Video.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14D676A1466AABB00CF4EEB /* Video.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,23 +57,43 @@
 		E14D66B8146679A100CF4EEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E14D66BA146679A100CF4EEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E14D66BC146679A100CF4EEB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		E14D66C0146679A100CF4EEB /* Grinnell-Info.plist */ = {isa = PBXFileReference; path = "Grinnell-Info.plist"; sourceTree = "<group>"; };
+		E14D66C0146679A100CF4EEB /* Grinnell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grinnell-Info.plist"; sourceTree = "<group>"; };
 		E14D66C2146679A100CF4EEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E14D66C4146679A100CF4EEB /* Grinnell-Prefix.pch */ = {isa = PBXFileReference; path = "Grinnell-Prefix.pch"; sourceTree = "<group>"; };
+		E14D66C4146679A100CF4EEB /* Grinnell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Grinnell-Prefix.pch"; sourceTree = "<group>"; };
 		E14D66C5146679A100CF4EEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E14D66C7146679A100CF4EEB /* GrinnellAppDelegate.h */ = {isa = PBXFileReference; path = GrinnellAppDelegate.h; sourceTree = "<group>"; };
+		E14D66C7146679A100CF4EEB /* GrinnellAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrinnellAppDelegate.h; sourceTree = "<group>"; };
 		E14D66C8146679A100CF4EEB /* GrinnellAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrinnellAppDelegate.m; sourceTree = "<group>"; };
 		E14D66CB146679A200CF4EEB /* Grinnell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grinnell.xcdatamodel; sourceTree = "<group>"; };
 		E14D66CE146679A200CF4EEB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		E14D66D0146679A200CF4EEB /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		E14D66D0146679A200CF4EEB /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		E14D66D1146679A200CF4EEB /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		E14D66D4146679A200CF4EEB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		E14D66DB146679A200CF4EEB /* GrinnellTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrinnellTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E14D66E4146679A300CF4EEB /* GrinnellTests-Info.plist */ = {isa = PBXFileReference; path = "GrinnellTests-Info.plist"; sourceTree = "<group>"; };
+		E14D66E4146679A300CF4EEB /* GrinnellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrinnellTests-Info.plist"; sourceTree = "<group>"; };
 		E14D66E6146679A300CF4EEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E14D66E8146679A300CF4EEB /* GrinnellTests-Prefix.pch */ = {isa = PBXFileReference; path = "GrinnellTests-Prefix.pch"; sourceTree = "<group>"; };
+		E14D66E8146679A300CF4EEB /* GrinnellTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GrinnellTests-Prefix.pch"; sourceTree = "<group>"; };
 		E14D66E9146679A300CF4EEB /* GrinnellTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrinnellTests.h; sourceTree = "<group>"; };
 		E14D66EB146679A300CF4EEB /* GrinnellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrinnellTests.m; sourceTree = "<group>"; };
+		E14D66F5146679E700CF4EEB /* grinnellbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grinnellbg.png; sourceTree = "<group>"; };
+		E14D674D1466882D00CF4EEB /* Campus_Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Campus_Map.h; sourceTree = "<group>"; };
+		E14D674E1466882D00CF4EEB /* Campus_Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Campus_Map.m; sourceTree = "<group>"; };
+		E14D674F1466882D00CF4EEB /* Campus_Map.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Campus_Map.xib; sourceTree = "<group>"; };
+		E14D67521466885A00CF4EEB /* campusmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campusmap.png; sourceTree = "<group>"; };
+		E14D67541466A98700CF4EEB /* Campus_Memo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Campus_Memo.h; sourceTree = "<group>"; };
+		E14D67551466A98700CF4EEB /* Campus_Memo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Campus_Memo.m; sourceTree = "<group>"; };
+		E14D67561466A98800CF4EEB /* Campus_Memo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Campus_Memo.xib; sourceTree = "<group>"; };
+		E14D67591466AA6200CF4EEB /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		E14D675A1466AA6200CF4EEB /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		E14D675B1466AA6300CF4EEB /* News.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = News.xib; sourceTree = "<group>"; };
+		E14D675E1466AA8400CF4EEB /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		E14D675F1466AA8500CF4EEB /* Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Events.m; sourceTree = "<group>"; };
+		E14D67601466AA8500CF4EEB /* Events.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Events.xib; sourceTree = "<group>"; };
+		E14D67631466AA9D00CF4EEB /* Hours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hours.h; sourceTree = "<group>"; };
+		E14D67641466AA9E00CF4EEB /* Hours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hours.m; sourceTree = "<group>"; };
+		E14D67651466AA9F00CF4EEB /* Hours.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Hours.xib; sourceTree = "<group>"; };
+		E14D67681466AAB800CF4EEB /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		E14D67691466AABA00CF4EEB /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		E14D676A1466AABB00CF4EEB /* Video.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Video.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +161,26 @@
 				E14D66D0146679A200CF4EEB /* RootViewController.h */,
 				E14D66D1146679A200CF4EEB /* RootViewController.m */,
 				E14D66D3146679A200CF4EEB /* RootViewController.xib */,
+				E14D67541466A98700CF4EEB /* Campus_Memo.h */,
+				E14D67551466A98700CF4EEB /* Campus_Memo.m */,
+				E14D67561466A98800CF4EEB /* Campus_Memo.xib */,
+				E14D67591466AA6200CF4EEB /* News.h */,
+				E14D675A1466AA6200CF4EEB /* News.m */,
+				E14D675B1466AA6300CF4EEB /* News.xib */,
+				E14D675E1466AA8400CF4EEB /* Events.h */,
+				E14D675F1466AA8500CF4EEB /* Events.m */,
+				E14D67601466AA8500CF4EEB /* Events.xib */,
+				E14D67631466AA9D00CF4EEB /* Hours.h */,
+				E14D67641466AA9E00CF4EEB /* Hours.m */,
+				E14D67651466AA9F00CF4EEB /* Hours.xib */,
+				E14D67681466AAB800CF4EEB /* Video.h */,
+				E14D67691466AABA00CF4EEB /* Video.m */,
+				E14D676A1466AABB00CF4EEB /* Video.xib */,
+				E14D674D1466882D00CF4EEB /* Campus_Map.h */,
+				E14D674E1466882D00CF4EEB /* Campus_Map.m */,
+				E14D674F1466882D00CF4EEB /* Campus_Map.xib */,
+				E14D67521466885A00CF4EEB /* campusmap.png */,
+				E14D66F5146679E700CF4EEB /* grinnellbg.png */,
 				E14D66CA146679A200CF4EEB /* Grinnell.xcdatamodeld */,
 				E14D66BF146679A100CF4EEB /* Supporting Files */,
 			);
@@ -234,6 +288,14 @@
 				E14D66C3146679A100CF4EEB /* InfoPlist.strings in Resources */,
 				E14D66CF146679A200CF4EEB /* MainWindow.xib in Resources */,
 				E14D66D5146679A200CF4EEB /* RootViewController.xib in Resources */,
+				E14D66F6146679E700CF4EEB /* grinnellbg.png in Resources */,
+				E14D67511466882E00CF4EEB /* Campus_Map.xib in Resources */,
+				E14D67531466885A00CF4EEB /* campusmap.png in Resources */,
+				E14D67581466A98800CF4EEB /* Campus_Memo.xib in Resources */,
+				E14D675D1466AA6400CF4EEB /* News.xib in Resources */,
+				E14D67621466AA8600CF4EEB /* Events.xib in Resources */,
+				E14D67671466AAA000CF4EEB /* Hours.xib in Resources */,
+				E14D676C1466AABD00CF4EEB /* Video.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +335,12 @@
 				E14D66C9146679A100CF4EEB /* GrinnellAppDelegate.m in Sources */,
 				E14D66CC146679A200CF4EEB /* Grinnell.xcdatamodeld in Sources */,
 				E14D66D2146679A200CF4EEB /* RootViewController.m in Sources */,
+				E14D67501466882E00CF4EEB /* Campus_Map.m in Sources */,
+				E14D67571466A98800CF4EEB /* Campus_Memo.m in Sources */,
+				E14D675C1466AA6400CF4EEB /* News.m in Sources */,
+				E14D67611466AA8600CF4EEB /* Events.m in Sources */,
+				E14D67661466AAA000CF4EEB /* Hours.m in Sources */,
+				E14D676B1466AABD00CF4EEB /* Video.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

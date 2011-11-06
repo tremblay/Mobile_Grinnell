@@ -3,7 +3,7 @@
 //  Grinnell
 //
 //  Created by Colin Tremblay on 11/6/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 __Grinnell_AppDev__. All rights reserved.
 //
 
 #import "GrinnellAppDelegate.h"
@@ -13,13 +13,11 @@
 @implementation GrinnellAppDelegate
 
 
-@synthesize window=_window;
+@synthesize window, persistentStoreCoordinator;
 
 @synthesize managedObjectContext=__managedObjectContext;
 
 @synthesize managedObjectModel=__managedObjectModel;
-
-@synthesize persistentStoreCoordinator=__persistentStoreCoordinator;
 
 @synthesize navigationController=_navigationController;
 
@@ -70,10 +68,10 @@
 
 - (void)dealloc
 {
-    [_window release];
+    [window release];
     [__managedObjectContext release];
     [__managedObjectModel release];
-    [__persistentStoreCoordinator release];
+    [persistentStoreCoordinator release];
     [_navigationController release];
     [super dealloc];
 }
@@ -146,16 +144,16 @@
  */
 - (NSPersistentStoreCoordinator *)persistentStoreCoordinator
 {
-    if (__persistentStoreCoordinator != nil)
+    if (persistentStoreCoordinator != nil)
     {
-        return __persistentStoreCoordinator;
+        return persistentStoreCoordinator;
     }
     
     NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"Grinnell.sqlite"];
     
     NSError *error = nil;
-    __persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-    if (![__persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error])
+    persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
+    if (![persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error])
     {
         /*
          Replace this implementation with code to handle the error appropriately.
@@ -184,7 +182,7 @@
         abort();
     }    
     
-    return __persistentStoreCoordinator;
+    return persistentStoreCoordinator;
 }
 
 #pragma mark - Application's Documents directory
