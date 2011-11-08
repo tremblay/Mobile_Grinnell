@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E107D56A146904E600069CBE /* campusmap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E107D569146904E500069CBE /* campusmap.jpg */; };
 		E14D66B7146679A100CF4EEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14D66B6146679A100CF4EEB /* UIKit.framework */; };
 		E14D66B9146679A100CF4EEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14D66B8146679A100CF4EEB /* Foundation.framework */; };
 		E14D66BB146679A100CF4EEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14D66BA146679A100CF4EEB /* CoreGraphics.framework */; };
@@ -28,7 +29,6 @@
 		E14D66F6146679E700CF4EEB /* grinnellbg.png in Resources */ = {isa = PBXBuildFile; fileRef = E14D66F5146679E700CF4EEB /* grinnellbg.png */; };
 		E14D67501466882E00CF4EEB /* Campus_Map.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D674E1466882D00CF4EEB /* Campus_Map.m */; };
 		E14D67511466882E00CF4EEB /* Campus_Map.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14D674F1466882D00CF4EEB /* Campus_Map.xib */; };
-		E14D67531466885A00CF4EEB /* campusmap.png in Resources */ = {isa = PBXBuildFile; fileRef = E14D67521466885A00CF4EEB /* campusmap.png */; };
 		E14D67571466A98800CF4EEB /* Campus_Memo.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D67551466A98700CF4EEB /* Campus_Memo.m */; };
 		E14D67581466A98800CF4EEB /* Campus_Memo.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14D67561466A98800CF4EEB /* Campus_Memo.xib */; };
 		E14D675C1466AA6400CF4EEB /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D675A1466AA6200CF4EEB /* News.m */; };
@@ -54,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E107D569146904E500069CBE /* campusmap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = campusmap.jpg; sourceTree = "<group>"; };
 		E14D66B2146679A100CF4EEB /* Grinnell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grinnell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14D66B6146679A100CF4EEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E14D66B8146679A100CF4EEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,7 +81,6 @@
 		E14D674D1466882D00CF4EEB /* Campus_Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Campus_Map.h; sourceTree = "<group>"; };
 		E14D674E1466882D00CF4EEB /* Campus_Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Campus_Map.m; sourceTree = "<group>"; };
 		E14D674F1466882D00CF4EEB /* Campus_Map.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Campus_Map.xib; sourceTree = "<group>"; };
-		E14D67521466885A00CF4EEB /* campusmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campusmap.png; sourceTree = "<group>"; };
 		E14D67541466A98700CF4EEB /* Campus_Memo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Campus_Memo.h; sourceTree = "<group>"; };
 		E14D67551466A98700CF4EEB /* Campus_Memo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Campus_Memo.m; sourceTree = "<group>"; };
 		E14D67561466A98800CF4EEB /* Campus_Memo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Campus_Memo.xib; sourceTree = "<group>"; };
@@ -187,7 +187,7 @@
 				E14D674D1466882D00CF4EEB /* Campus_Map.h */,
 				E14D674E1466882D00CF4EEB /* Campus_Map.m */,
 				E14D674F1466882D00CF4EEB /* Campus_Map.xib */,
-				E14D67521466885A00CF4EEB /* campusmap.png */,
+				E107D569146904E500069CBE /* campusmap.jpg */,
 				E14D66F5146679E700CF4EEB /* grinnellbg.png */,
 				E14D66CA146679A200CF4EEB /* Grinnell.xcdatamodeld */,
 				E14D66BF146679A100CF4EEB /* Supporting Files */,
@@ -298,13 +298,13 @@
 				E14D66D5146679A200CF4EEB /* RootViewController.xib in Resources */,
 				E14D66F6146679E700CF4EEB /* grinnellbg.png in Resources */,
 				E14D67511466882E00CF4EEB /* Campus_Map.xib in Resources */,
-				E14D67531466885A00CF4EEB /* campusmap.png in Resources */,
 				E14D67581466A98800CF4EEB /* Campus_Memo.xib in Resources */,
 				E14D675D1466AA6400CF4EEB /* News.xib in Resources */,
 				E14D67621466AA8600CF4EEB /* Events.xib in Resources */,
 				E14D67671466AAA000CF4EEB /* Hours.xib in Resources */,
 				E14D676C1466AABD00CF4EEB /* Video.xib in Resources */,
 				E1A7D3DB146751B900AD9391 /* DHall.xib in Resources */,
+				E107D56A146904E600069CBE /* campusmap.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

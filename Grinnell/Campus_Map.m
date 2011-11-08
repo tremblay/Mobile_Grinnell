@@ -37,6 +37,13 @@
 
 - (void)viewDidLoad
 {
+    UIImage *image = [UIImage imageNamed:@"campusmap.jpg"];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+    UIScrollView * scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+    [scrollView setContentSize:CGSizeMake(imageView.frame.size.width, imageView.frame.size.height)];
+    [scrollView addSubview:imageView];
+    
+    [self.view addSubview:scrollView];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }

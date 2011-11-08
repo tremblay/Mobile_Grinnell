@@ -93,12 +93,11 @@
 						<string key="NSFrame">{{0, 32}, {320, 31}}</string>
 						<reference key="NSSuperview" ref="984979479"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<string key="IBUIText">Please choose one of the obtions above.</string>
+						<string key="IBUIText">Please choose one of the options above.</string>
 						<reference key="IBUITextColor" ref="372263840"/>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">Helvetica</string>

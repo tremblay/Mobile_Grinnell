@@ -14,4 +14,5 @@
 }
 
 @property (nonatomic, retain) IBOutlet UIWebView *webView;
+- (void)embedVideo:(NSString *)urlString frame:(CGRect)frame;
 @end

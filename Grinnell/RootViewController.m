@@ -107,7 +107,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+
     if (indexPath.row == 0){
         [tableView setHidden:YES];
     }
@@ -146,6 +146,7 @@
         [self.navigationController pushViewController:dhall animated:YES];
         [dhall release];
     }
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
 }
 
 - (void)didReceiveMemoryWarning
