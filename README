@@ -1,0 +1,58 @@
+#########################################################################
+#
+# Mobile Grinnell iOS Application
+#
+#### #### #### #### #### #### #### #### #### #### #### #### #### #### ###
++-----------------------------------------------------------------------+
+Authors:	Colin Tremblay
+		Maijid Moujaled
+		David Cowden
+
+Date:     	Tuesday 8 November
+
++-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --+
+License:
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
+
+Mobile Grinnell
+
+Mobile Grinnell is a quick and easy way to view the various postings from
+Grinnell's website, including the Campus Memo, Campus News, Campus Events,
+a campus map, building/office hours, the Dining Hall Menu, and the video 
+of the month.
+
+Mobile Grinnell is currently in ALPHA.  This means the application is
+in development and not yet fully functional.  
+
+Source for Grinnell-Menu-iOS can be obtained at the following location:
+	https://github.com/GrinnellAppDev/Mobile-Grinnell-iOS
+
+You can obtain the source with the following command:
+	git clone git://github.com/GrinnellAppDev/Mobile-Grinnell-iOS.git
+
+If you would like to contribute, shoot us a pull request.  
+
+^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
+
+To-Do List
+	Add our DHall App.
+	Support clicking on links within each webview?
+	Give it pretty colors?
+
+Possible Features
+	Our own Calender App supporting uploads from users?
+	Search bar to search for next time a certain dish is on the menu
