@@ -9,8 +9,11 @@
 #import <UIKit/UIKit.h>
 
 
-@interface Campus_Map : UIViewController {
-    
+@interface Campus_Map : UIViewController <UIScrollViewDelegate>{
+    UIScrollView *scrollView;
+    UIImageView *imageView;
 }
+@property (nonatomic, retain) IBOutlet UIScrollView *scrollView;
+@property (nonatomic, retain) UIImageView *imageView;
 
 @end

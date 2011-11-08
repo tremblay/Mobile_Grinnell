@@ -10,6 +10,7 @@
 
 
 @implementation Campus_Map
+@synthesize scrollView, imageView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -22,6 +23,8 @@
 
 - (void)dealloc
 {
+    [imageView release];
+    [scrollView release];
     [super dealloc];
 }
 
@@ -38,14 +41,20 @@
 - (void)viewDidLoad
 {
     UIImage *image = [UIImage imageNamed:@"campusmap.jpg"];
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
-    UIScrollView * scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+    imageView = [[UIImageView alloc] initWithImage:image];
     [scrollView setContentSize:CGSizeMake(imageView.frame.size.width, imageView.frame.size.height)];
+    scrollView.maximumZoomScale = 8;
+    scrollView.minimumZoomScale = .5;
+    scrollView.delegate = self;
     [scrollView addSubview:imageView];
-    
-    [self.view addSubview:scrollView];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+
+
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
+{
+    return imageView;
 }
 
 - (void)viewDidUnload
