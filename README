@@ -8,7 +8,7 @@ Authors:	Colin Tremblay
 		Maijid Moujaled
 		David Cowden
 
-Date:     	Tuesday 8 November
+Date:     	Wednesday 9 November
 
 +-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --+
 License:
@@ -49,10 +49,10 @@ If you would like to contribute, shoot us a pull request.
 ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
 
 To-Do List
+	Add app icon
 	Add our DHall App.
 	Support clicking on links within each webview?
-	Give it pretty colors?
+	Pretty stuff
 
 Possible Features
 	Our own Calender App supporting uploads from users?
-	Search bar to search for next time a certain dish is on the menu
