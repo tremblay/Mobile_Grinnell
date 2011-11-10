@@ -142,12 +142,19 @@
         [map release];
     }
     else if (indexPath.row == 7){
-        DHall *dhall = [[DHall alloc] initWithNibName:@"DHall" bundle:nil];
-        [self.navigationController pushViewController:dhall animated:YES];
-        [dhall release];
+        NSURL *urlString = [[NSURL alloc] initWithString:@"grinnellDiningHallApp://"];
+        if ([[UIApplication sharedApplication] canOpenURL:urlString])
+            [[UIApplication sharedApplication] openURL:urlString];
+        else{
+            DHall *dhall = [[DHall alloc] initWithNibName:@"DHall" bundle:nil];
+            [self.navigationController pushViewController:dhall animated:YES];
+            [dhall release];
+        }
     }
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
 }
+
+
 
 - (void)didReceiveMemoryWarning
 {

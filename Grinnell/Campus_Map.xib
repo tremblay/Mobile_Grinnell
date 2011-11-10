@@ -49,8 +49,8 @@
 						<reference key="NSSuperview" ref="931963948"/>
 						<reference key="NSWindow"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC41MDQyNjk4ODYxIDAuNjQ4ODQ4ODQxNSAwLjY2MzI2NTMwNjEAA</bytes>
+							<int key="NSColorSpace">2</int>
+							<bytes key="NSRGB">MC4xODgyMzUzMTI3IDAuMDE1Njg2Mjc1NDQgMC4wNTA5ODAzOTY1NwA</bytes>
 						</object>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>

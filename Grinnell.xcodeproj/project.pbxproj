@@ -39,6 +39,12 @@
 		E14D67671466AAA000CF4EEB /* Hours.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14D67651466AA9F00CF4EEB /* Hours.xib */; };
 		E14D676B1466AABD00CF4EEB /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = E14D67691466AABA00CF4EEB /* Video.m */; };
 		E14D676C1466AABD00CF4EEB /* Video.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14D676A1466AABB00CF4EEB /* Video.xib */; };
+		E1A08AF4146C66D3009AE082 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A08AEE146C66D3009AE082 /* Icon-72.png */; };
+		E1A08AF5146C66D3009AE082 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A08AEF146C66D3009AE082 /* Icon-Small-50.png */; };
+		E1A08AF6146C66D3009AE082 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A08AF0146C66D3009AE082 /* Icon-Small.png */; };
+		E1A08AF7146C66D3009AE082 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A08AF1146C66D3009AE082 /* Icon-Small@2x.png */; };
+		E1A08AF8146C66D3009AE082 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A08AF2146C66D3009AE082 /* Icon.png */; };
+		E1A08AF9146C66D3009AE082 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A08AF3146C66D3009AE082 /* Icon@2x.png */; };
 		E1A7D3DA146751B900AD9391 /* DHall.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A7D3D8146751B600AD9391 /* DHall.m */; };
 		E1A7D3DB146751B900AD9391 /* DHall.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A7D3D9146751B800AD9391 /* DHall.xib */; };
 /* End PBXBuildFile section */
@@ -96,6 +102,12 @@
 		E14D67681466AAB800CF4EEB /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
 		E14D67691466AABA00CF4EEB /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
 		E14D676A1466AABB00CF4EEB /* Video.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Video.xib; sourceTree = "<group>"; };
+		E1A08AEE146C66D3009AE082 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		E1A08AEF146C66D3009AE082 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		E1A08AF0146C66D3009AE082 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		E1A08AF1146C66D3009AE082 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		E1A08AF2146C66D3009AE082 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E1A08AF3146C66D3009AE082 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		E1A7D3D7146751B500AD9391 /* DHall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHall.h; sourceTree = "<group>"; };
 		E1A7D3D8146751B600AD9391 /* DHall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHall.m; sourceTree = "<group>"; };
 		E1A7D3D9146751B800AD9391 /* DHall.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DHall.xib; sourceTree = "<group>"; };
@@ -190,6 +202,12 @@
 				E107D569146904E500069CBE /* campusmap.jpg */,
 				E14D66F5146679E700CF4EEB /* grinnellbg.png */,
 				E14D66CA146679A200CF4EEB /* Grinnell.xcdatamodeld */,
+				E1A08AEE146C66D3009AE082 /* Icon-72.png */,
+				E1A08AEF146C66D3009AE082 /* Icon-Small-50.png */,
+				E1A08AF0146C66D3009AE082 /* Icon-Small.png */,
+				E1A08AF1146C66D3009AE082 /* Icon-Small@2x.png */,
+				E1A08AF2146C66D3009AE082 /* Icon.png */,
+				E1A08AF3146C66D3009AE082 /* Icon@2x.png */,
 				E14D66BF146679A100CF4EEB /* Supporting Files */,
 			);
 			path = Grinnell;
@@ -305,6 +323,12 @@
 				E14D676C1466AABD00CF4EEB /* Video.xib in Resources */,
 				E1A7D3DB146751B900AD9391 /* DHall.xib in Resources */,
 				E107D56A146904E600069CBE /* campusmap.jpg in Resources */,
+				E1A08AF4146C66D3009AE082 /* Icon-72.png in Resources */,
+				E1A08AF5146C66D3009AE082 /* Icon-Small-50.png in Resources */,
+				E1A08AF6146C66D3009AE082 /* Icon-Small.png in Resources */,
+				E1A08AF7146C66D3009AE082 /* Icon-Small@2x.png in Resources */,
+				E1A08AF8146C66D3009AE082 /* Icon.png in Resources */,
+				E1A08AF9146C66D3009AE082 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

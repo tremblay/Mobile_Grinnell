@@ -39,6 +39,20 @@
 
 - (void)viewDidLoad
 {
+    //Prompt to get the dhall app
+    UIAlertView *alert = [[UIAlertView alloc] 
+                         initWithTitle:@"Alert" 
+                         message:@"Seach the AppStore for the official Grinnell Dining Hall App" 
+                         delegate:self 
+                         cancelButtonTitle:@"OK" 
+                         otherButtonTitles:nil
+                         ];
+    [alert show];
+    [alert release];
+
+    
+    
+    
     NSURL *urlString = [[NSURL alloc] initWithString:@"http://www.grinnell.edu/includes/n/diningoid.php"];
     NSURLRequest *urlRequest = [[NSURLRequest alloc] initWithURL:urlString];
     NSData *returnData = [NSURLConnection sendSynchronousRequest:urlRequest returningResponse:nil error:nil];
