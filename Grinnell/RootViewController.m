@@ -107,9 +107,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-
+    [newTableView setHidden:YES];
     if (indexPath.row == 0){
-        [tableView setHidden:YES];
     }
     else if (indexPath.row == 1){
         Campus_Memo *memo = [[Campus_Memo alloc] initWithNibName:@"Campus_Memo" bundle:nil];

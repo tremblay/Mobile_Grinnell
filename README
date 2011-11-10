@@ -6,9 +6,10 @@
 +-----------------------------------------------------------------------+
 Authors:	Colin Tremblay
 		Maijid Moujaled
+		Aaltan Ahmad
 		David Cowden
 
-Date:     	Wednesday 9 November
+Date:     	Thursday 10 November
 
 +-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --+
 License:
@@ -49,10 +50,9 @@ If you would like to contribute, shoot us a pull request.
 ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
 
 To-Do List
-	Add app icon
-	Add our DHall App.
 	Support clicking on links within each webview?
-	Pretty stuff
+	Pretty stuff (i.e. layout of text in webview... add <br> after
+		title of building in Hours, etc.)?
 
 Possible Features
 	Our own Calender App supporting uploads from users?
