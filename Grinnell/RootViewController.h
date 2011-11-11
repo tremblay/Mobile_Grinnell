@@ -14,7 +14,6 @@
     UITableView *newTableView;
     NSArray *menuItems;
 }
-- (IBAction)showMenu;
 @property (nonatomic, retain) NSFetchedResultsController *fetchedResultsController;
 @property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, retain) IBOutlet UITableView *newTableView;

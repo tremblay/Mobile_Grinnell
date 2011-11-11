@@ -23,28 +23,15 @@
 
 @synthesize fetchedResultsController, managedObjectContext, newTableView, menuItems;
 
-- (IBAction)showMenu{
-    [newTableView setHidden:NO];
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Set up the button.
-    UIBarButtonItem *optionsButton = [[UIBarButtonItem alloc] 
-                                      initWithTitle:@"Options"
-                                      style:UIBarButtonSystemItemAction 
-                                      target:self 
-                                      action:@selector(showMenu)];
-    self.navigationItem.rightBarButtonItem = optionsButton;
     self.title = @"Welcome";
-    [optionsButton release];
-    menuItems = [[NSArray alloc] initWithObjects:@"Welcome", @"Campus Memo", @"News", @"Upcoming Events", @"Hours", @"Cool Video", @"Campus Map", @"Dining Menu", nil];
+    menuItems = [[NSArray alloc] initWithObjects:@"Campus Memo", @"News", @"Upcoming Events", @"Hours", @"Cool Video", @"Campus Map", @"Dining Menu", nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    [newTableView setHidden:YES];
     [super viewWillAppear:animated];
 }
 
@@ -79,7 +66,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 8;
+    return 7;
 }
 
 // Customize the appearance of table view cells.
@@ -107,40 +94,37 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [newTableView setHidden:YES];
     if (indexPath.row == 0){
-    }
-    else if (indexPath.row == 1){
         Campus_Memo *memo = [[Campus_Memo alloc] initWithNibName:@"Campus_Memo" bundle:nil];
         [self.navigationController pushViewController:memo animated:YES];
         [memo release];
     }
-    else if (indexPath.row == 2){
+    else if (indexPath.row == 1){
         News *news = [[News alloc] initWithNibName:@"News" bundle:nil];
         [self.navigationController pushViewController:news animated:YES];
         [news release];
     }
-    else if (indexPath.row == 3){
+    else if (indexPath.row == 2){
         Events *events= [[Events alloc] initWithNibName:@"Events" bundle:nil];
         [self.navigationController pushViewController:events animated:YES];
         [events release];
     }
-    else if (indexPath.row == 4){
+    else if (indexPath.row == 3){
         Hours *hours = [[Hours alloc] initWithNibName:@"Hours" bundle:nil];
         [self.navigationController pushViewController:hours animated:YES];
         [hours release];
     }
-    else if (indexPath.row == 5){
+    else if (indexPath.row == 4){
      Video *video = [[Video alloc] initWithNibName:@"Video" bundle:nil];
         [self.navigationController pushViewController:video animated:YES];
         [video release];
     }
-    else if (indexPath.row == 6){
+    else if (indexPath.row == 5){
         Campus_Map *map = [[Campus_Map alloc] initWithNibName:@"Campus_Map" bundle:nil];
         [self.navigationController pushViewController:map animated:YES];
         [map release];
     }
-    else if (indexPath.row == 7){
+    else if (indexPath.row == 6){
         NSURL *urlString = [[NSURL alloc] initWithString:@"grinnellDiningHallApp://"];
         if ([[UIApplication sharedApplication] canOpenURL:urlString])
             [[UIApplication sharedApplication] openURL:urlString];
