@@ -1148,7 +1148,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{0, 0}, {522, 480}}</string>
+		<string>{{0, 0}, {522, 502}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1590,7 +1590,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>150</integer>
+					<integer>151</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
